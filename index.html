@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design guide</title>
+    <link href='./styles.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Bebas+Neue&family=EB+Garamond:wght@400;700&family=Josefin+Sans:wght@300;400;700&family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 style="letter-spacing: .3em; font-weight: bold; margin: 20px auto; padding: 5px 20px;">Design guide</h1>
+        <ul class="breadcrumb">
+            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#styles">Text styles</a></li>
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#about">Contact information</a></li>
+        </ul>    
+    </header>
+    <main>
+        <section>
+            <h2 id="fonts" class="headline">Fonts</h2>
+            <h3>Basic fonts</h3>
+            <article class="center_boxes">
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="montserrat strong">This is Montserrat strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="montserrat">This is Montserrat regular (font-weight: 400)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="montserrat thin">This is Montserrat light (font-weight: 300)</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="josefin strong">This is Josefin strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="josefin">This is Josefin regular (font-weight: 400)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="josefin thin">This is Josefin light (font-weight: 300)</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="barlow strong">This is Barlow strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="barlow">This is Barlow regular (font-weight: 400)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="barlow thin">This is Barlow light (font-weight: 300)</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="roboto strong">This is Roboto strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="roboto">This is Roboto regular (font-weight: 400)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="roboto thin">This is Roboto light (font-weight: 300)</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="garamond strong">This is EB Garamond strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="garamond">This is EB Garamond regular (font-weight: 400)</a></p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="playfair strong">This is Playfair Display strong (font-weight: 700)</a></p>
+                        </li>
+                        <li>
+                            <p><a class="playfair">This is Playfair Display regular (font-weight: 400)</a></p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="container container_fonts white">
+                    <ul>
+                        <li>
+                            <p><a class="bebas">This is Bebas Neue (font-weight: 400)</a></p>
+                        </li>
+  
+                    </ul>
+                </div>
+
+            </article>
+           
+            <h3>Font combinations</h3>
+            <article class="center_boxes">
+                
+                <div class="container container_text cardin_green">
+                    <h4><a class="playfair">Playfair Display</a><a> & </a><a class="roboto upper_case" style="color: #6ACFC7;">Roboto</a></h4> 
+                        <p class="playfair">Explore the fonts and how they work <a class="upper_case roboto" style="color: #6ACFC7">together</a></p>  
+                </div>
+
+                <div class="container container_text dim_grey">
+                    <h4><a class="garamond">EB Garamond</a><a> & </a><a class="quicksand upper_case" style="color: #BAFF39;">Quicksand</a></h4> 
+                        <p class="garamond">Explore the fonts and how they work <a class="upper_case quicksand" style="color: #BAFF39">together</a></p> 
+                </div>
+
+                <div class="container container_text black">
+                    <h4><a class="montserrat">Montserrat</a><a> & </a><a class="bebas upper_case" style="color: #E2CA21;">Bebas Neue</a></h4> 
+                        <p class="montserrat">Explore the fonts and how they work <a class="upper_case bebas" style="background-color: #DB6745; letter-spacing: 0.2em;">together</a></p> 
+                </div>
+
+                <div class="container container_text narvik">
+                    <h4><a class="josefin" style="color:#99775C;">Josefin Sans</a><a> & </a><a class="playfair" style="color:#99775C;">Playfair Display</a></h4> 
+                        <p class="josefin">Explore the fonts and how they work <a class="playfair upper_case" style="color: white; background-color: #99775C; letter-spacing: 0.2em;"> together</a></p> 
+                </div>
+
+                <div class="container container_text navy_blue">
+                    <h4><a class="garamond">EB Garamond</a><a> & </a><a class="barlow">BARLOW</a></h4> 
+                        <p class="garamond">Explore the fonts and how they work <a class="barlow upper_case" style="color: #01257D; background-color: #00FFFF; letter-spacing: 0.2em;"> together</a></p> 
+                </div>
+
+                <div class="container container_text green" style="color:#FAF5E9">
+                    <h4><a class="bebas">Bebas Neue</a><a> & </a><a class="playfair">Playfair Display</a></h4> 
+                        <p><a class="bebas" style="letter-spacing: 0.2em; color: #FFCC00;">Explore the fonts </a><a class="playfair" >and how they work together</a></p> 
+                </div>
+
+
+
+            </article>
+
+
+       
+
+        </section>
+
+        <section>
+            <h2 id="styles" class="headline">Text styles</h2>
+            
+            <h3>Ranking guidelines</h3>
+            <div>
+                <ul>
+                    <li><h1>This is &lt;h1&gt; in font-size 36</h1>
+                    <p>The main heading of the page that provide a clear and concise summary of the content on the page</p>
+                    </li>
+                    <li><h2>This is &lt;h2&gt; in font-size 28</h2>
+                    <p>Subheading and headline for sections or subsections on the page</p>
+                    </li>
+                    <li><h3>This is &lt;h3&gt; in font-size 20</h3>
+                    <p>Sub-subheadings. Can be used as a headline of an article in a section</p>
+                    </li>
+                    <li><h4>This is &lt;h4&gt;</h4></li>
+                    <li><h5>This is &lt;h5&gt;</h5></li>
+                    <li><h6>This is &lt;h6&gt;</h6></li>
+                    <li><p>This is &lt;p&gt;</p></li>
+                    <li><span>This is &lt;span&gt;</span></li>
+                </ul>
+            </div>
+
+            <h3>Spacing and line heights</h3>
+
+            <h3>Weight</h3>
+           
+
+        </section>
+
+        <section>
+            <h2 id="colors" class="headline">Colors</h2>
+            <article class="center_boxes">
+                
+                <div class="container container_color white">
+                    <h3>1. White and black</h3>
+                    <div class="box transparent">white (#FFFFFF)</div>
+                    <div class="box black">black (#1D1D1D)</div> 
+                    <p>- Simple and formal</p>          
+                </div>
+
+                <div class="container container_color light_blue">
+                    <h3>2. Blue Shades and White</h3>
+                    <div class="box transparent">light blue (#E9F1FA)</div>
+                    <div class="box bright_blue">bright blue (#00ABE4)</div>
+                    <div class="box white">white (#FFFFFF)</div>
+                    <p>- Stability and reliability</p>
+                </div>
+
+                <div class="container container_color pale_blue">
+                    <h3>3. Blue Shades, White, and Red-Violet</h3>
+                    <div class="box pale_blue">pale blue (#EFFAFD)</div>
+                    <div class="box royal_blue">royal blue (#4A8BDF)</div>
+                    <div class="box eggplant">eggplant (#A0006D)</div>
+                    <p>- Light but eye-catching</p>
+                </div>
+
+                <div class="container container_color narvik">
+                    <h3>4. Brown and Beige</h3>
+                    <div class="box narvik">Narvik (#EAE7DD)</div>
+                    <div class="box brown">Sorrell brown (#99775C)</div>
+                    <p>- Cozy and homey color palette</p>
+                </div>
+                
+                <div class="container container_color beige">
+                    <h3>5. Beige and Dark grey</h3>
+                    <div class="box beige">beige <br>(#DDD0C8)</div>
+                    <div class="box dark_grey">dark grey (#323232)</div>
+                    <p>- Minimalistic and calming website</p>
+                </div>
+
+                <div class="container container_color dim_grey">
+                    <h3>6. Dark Grey and Yellow-Green</h3>
+                    <div class="box dim_grey">dim grey (#6E6E6E)</div>
+                    <div class="box yellow_green">yellow-green (#BAFF39)</div>
+                    <div class="box white">white (#FFFFFF)</div>
+                    <p>- Emphasize important information</p>
+                </div>
+
+                <div class="container container_color malgreen">
+                    <h3>7. Bright Green and Hot Pink</h3>
+                    <div class="box malgreen">malachite (#31EC56)</div>
+                    <div class="box razzmatazz">razzmatazz (#EF036C)</div>
+                    <div class="box heliotrope">heliotrope (#EE72F8)</div>
+                    <p>- Energetic and cheerful</p>
+                </div>
+
+                <div class="container container_color green">
+                    <h3>8. Dark Green, Ivory, and Yellow</h3>
+                    <div class="box green">green (#009B4D)</div>
+                    <div class="box yellow">yellow (#FFCC00)</div>
+                    <div class="box ivory">ivory (#FAF5E9)</div>
+                    <p>- Natural colors for environmental message</p>
+                </div>
+
+                <div class="container container_color orange">
+                    <h3>9. Orange Shades and Blue</h3>
+                    <div class="box orange">orange (#F9B872)</div>
+                    <div class="box orange_light">light orange (#FAE7A5)</div>
+                    <div class="box powder_blue">powder blue (#B6E1E7)</div>
+                    <p>- Happiness and enthusiasm</p>
+                </div>
+    
+
+            
+                <div class="container container_color beige_dark">
+                    <h3>10. Beige, Orange, and White Accent</h3>
+                    <div class="box beige_dark">dark beige (#CD9C8A)</div>
+                    <div class="box orange_dark">orange (#FF5100)</div>
+                    <p>- Attention grabbing Colors</p>
+                </div>
+
+                <div class="container container_color navy_blue">
+                    <h3>11. Navy Blue and Electric Blue</h3>
+                    <div class="box navy_blue">navy blue (#01257D)</div>
+                    <div class="box electric_blue">electric blue (#00FFFF)</div>
+                    <p>- Blue is commonly regarded as the color of trust</p>
+                </div> 
+
+                <div class="container container_color blue_dark">
+                    <h3>12. Ark Royal Blue and Gold</h3>
+                    <div class="box blue_dark">Blue (#002349)</div>
+                    <div class="box gold_dark">gold (#957C3D)</div>
+                    <p>- Professional and poised</p>
+                </div>
+
+                <div class="container container_color deep_blue">
+                    <h3>13. Blue, Beige, and Coral Red</h3>
+                    <div class="box deep_blue">deep blue (#001233)</div>
+                    <div class="box coral_red">light coral red (#FF595A)</div>
+                    <div class="box beige_medium">beige (#CAC0B3)</div>
+                    <p>- Allowing important elements to be more noticeable</p>
+                </div>                     
+                <div class="container container_color classic_blue">
+                    <h3>14. Classic Blue, Turquoise, and Gold</h3>
+                    <div class="box classic_blue">classic blue (#0A1828)</div>
+                    <div class="box turquoise">turquoise (#178582)</div>
+                    <div class="box gold">gold (#BFA181)</div>
+                    <p>- Peaceful-looking website</p>
+                </div>
+                <div class="container container_color cardin_green">
+                    <h3>15. Teal and White</h3>
+                    <div class="box cardin_green">cardin Green (#0C1A1A)</div>
+                    <div class="box downy_teal">downy teal (#6ACFC7)</div>
+                    <p>- Tidy and modern website</p>
+                </div>     
+     
+                <div class="container container_color black">
+                    <h3>16. Black and Neon Blue</h3>
+                    <div class="box black">black (#1D1D1D)</div>
+                    <div class="box neon_blue">neon blue (#2272FF)</div>
+                    <p>- Futuristic and high-tech-themed website</p>
+                </div>
+
+                <div class="container container_color black">
+                    <h3>17. Black, Gold and Red</h3>
+                    <div class="box black">black (#1D1D1D)</div>
+                    <div class="box yellow_light">gold (#E2CA21)</div>
+                    <div class="box red_light">red<br> (#DB6745)</div>
+                    <p>- Simple and direct theme.</p>
+                </div>
+        
+            </article>
+        </section>
+
+        <section>
+            <h2 id="buttons" class="headline">Buttons</h2>
+            <article>
+                <h3>Basic 1</h3>
+                <button>click me</button>
+            </article>
+            
+            <article>
+                <h3>Inverted 1</h3>
+                <button class="button_inverted">click me</button>
+            </article>
+
+            <article>
+                <h3>Emphasis 1</h3>
+                <button class="button_emphasis">Emphasis</button>
+            </article>
+
+            <article>
+                <h3>Icon</h3>
+                <button class="button_icon">
+                    <a>Icon <img src="https://content.codecademy.com/courses/ui-breadcrumbs/cart.svg"></a>
+                </button>
+            </article>
+
+            <article>
+                <h3>Animated</h3>
+                <button class="button_animated">
+                    <a>Animated</a>    
+                </button>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="images" class="headline">Images</h2>
+        </section>
+
+        <section>
+            <h2 id="tables" class="headline">Tables</h2>
+        </section>
+        
+
+    </main>
+    <footer id="about">
+        <ul>
+            <li><p>About me</p></li>
+            <li><p>GitHub account</p></li>
+        </ul>
+        
+    </footer>
+</body>
+</html>

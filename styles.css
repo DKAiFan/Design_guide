@@ -1,0 +1,245 @@
+.breadcrumb li {
+    display: inline;
+  }
+  
+    .breadcrumb li+li::before {
+    color: gray;
+    content: ">";    
+  }
+
+  header {font-family: 'Roboto', sans-serif; 
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;}
+  
+  main {font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom, #E9F1FA, white);
+    margin-top: 100px;
+} 
+footer{
+    background-color: #00ABE4;
+    color: white;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.headline {
+    letter-spacing: .3em;
+    font-weight: bold;
+    background-color: #E9F1FA;
+    margin: 20px auto;
+}
+.container {
+    width: 450px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+.container_color{
+    height: 200px;
+    text-align: center;
+  }
+
+.container_fonts {
+    height: 120px;
+    text-align: left;
+  }
+
+  .container_text{
+    height: 120px;
+    text-align: center;
+  }
+
+
+
+/*Font*/
+
+    .montserrat {font-family: 'Montserrat', sans-serif;}
+    .josefin {font-family: 'Josefin Sans', sans-serif;}
+    .barlow{font-family: 'Barlow', sans-serif;}
+    .bebas{font-family: 'Bebas Neue', cursive;}
+    .garamond{font-family: 'EB Garamond', serif;}
+    .playfair{font-family: 'Playfair Display', serif;}
+    .quicksand{font-family: 'Quicksand', sans-serif;}
+    .roboto{font-family: 'Roboto', sans-serif;}
+
+    ul .container_fonts {list-style: none;}
+
+
+
+/*Tekst*/
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+.thin {font-weight: 300;}
+.strong {font-weight: 700;}
+
+.upper_case {text-transform: uppercase;}
+
+
+
+
+/*Colors*/
+
+
+  .container div {
+    font-weight: 300;
+  }
+
+  .container p {
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .center_boxes{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .box {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: top;
+    vertical-align: text-top;
+  }
+    /*1. White and black*/
+    .black{background-color: #1D1D1D; color: white;}
+    .white {background-color: #FFFFFF; color: black}  
+
+    /*2. Blue Shades and White*/
+    .transparent{background-color: none;}
+
+    .dim_grey{background-color: #6E6E6E; color: white;}
+    .dark_grey{background-color: #323232; color: white;}   
+
+    .ivory{background-color: #FAF5E9;}
+
+    .narvik {background-color: #EAE7DD;}  
+    .beige_medium {background-color: #CAC0B3; color: #001233}
+    .beige{background-color: #DDD0C8;}
+    .beige_dark {background-color: #CD9C8A; color: white}
+    .gold {background-color: #BFA181;color: black}
+    .gold_dark{background-color: #957C3D;color: white;}
+    .brown {background-color: #99775C;}
+
+    .green{background-color: #009B4D;}
+    .malgreen {background-color: #31EC56;}
+    .yellow_green {background-color:#BAFF39; color: #6E6E6E;}
+    .turquoise { background-color:#178582;}
+    .yellow{background-color: #FFCC00;}
+    .orange{background-color: #F9B872;}
+    .orange_light{background-color: #FAE7A5;}
+    .orange_dark {background-color: #FF5100;}
+    .coral_red {background-color: #FF595A;color: #001233; }
+    .razzmatazz {background-color: #EF036C;}
+    .heliotrope {background-color: #EE72F8;color: white;}
+    .eggplant{background-color:#A0006D; color: white;}
+    .classic_blue {background-color: #0A1828; color: #BFA181;}
+                    
+    .pale_blue {background-color:#EFFAFD; color: #001233;}
+    .light_blue{background-image: linear-gradient(to bottom, #E9F1FA, white);}
+    .powder_blue {background-color: #B6E1E7;}
+    .bright_blue {background-color: #00ABE4;}
+    .neon_blue{background-color: #2272FF;}
+    .navy_blue{background-color: #01257D;color: white;}
+    .electric_blue{background-color: #00FFFF;color: #01257D;}
+    .blue_dark {background-color: #002349;color: white;}
+    .deep_blue {background-color: #001233;color: #CAC0B3;}
+    .royal_blue{background-color:#4A8BDF; color: white;}  
+
+    .yellow_light {background-color: #E2CA21;}
+    .red_light {background-color: #DB6745;}
+
+
+    .cardin_green {background-color: #0C1A1A; color: white;}
+    .downy_teal {background-color: #6ACFC7; color: white;}
+
+
+/*Buttons*/
+  button {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+ 
+  }
+
+  .button_inverted {
+    background-color: #1D1;
+    color: #fff;
+    border: 2px solid #12dd23;
+    border-radius: 10px;
+}
+
+
+.button_inverted:hover {
+    background-color: #0c960c;
+    transition: background-color .15s, font-size .15s;
+    font-size: 30px;
+  }
+
+  .button_inverted:active {
+    border-color: #fff;
+  }
+
+
+
+  .button_emphasis{
+    border: 1px solid;
+    border-color: #466995;
+    border-radius: 10px;
+    box-shadow: 0px 4px;
+  }
+
+  .button_emphasis:hover { 
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+  }
+
+  .button_emphasis:active {
+  
+    box-shadow: 0px 0px;
+    background-color: #C0D6DF;
+    color: #ffffff;
+  }
+
+  .button_animated {
+    color: #00FFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button_icon {
+    color: #00FFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
